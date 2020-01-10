@@ -1,7 +1,7 @@
 Name: hunspell-oc
 Summary: Occitan hunspell dictionaries
 Version: 0.5
-Release: 7%{?dist}
+Release: 8%{?dist}
 Source: https://addons.mozilla.org/en-US/firefox/downloads/file/34604/occitan-languedocien-%{version}-fx+tb+sm.xpi
 Group: Applications/Text
 URL: https://addons.mozilla.org/en-US/firefox/addon/8235
@@ -37,6 +37,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.5-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.5-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
